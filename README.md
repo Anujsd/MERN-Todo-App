@@ -1,3 +1,12 @@
+This is simple MERN Stack Project
+Created for learning docker.
+
+We are creating 3 container here
+
+- MongoDB
+- Backend
+- Frontend
+
 # Run This App Using Docker
 
 #### Run This App

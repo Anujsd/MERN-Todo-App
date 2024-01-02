@@ -1,21 +1,3 @@
-# Run This App Using Docker
-
-#### Run This App
-
-```
-docker compose up
-```
-
-#### Stop This App
-
-```
-docker compose down
-```
-
-# Individual Commands
-
-See more on [commands.md](./commands.md)
-
 ## Create Network
 
 ```
@@ -54,4 +36,11 @@ docker build -t frontend .
 
 ```
 docker run -it -p 8000:8000 --rm frontend
+```
+
+Below command not working.<br/>
+if i don't add volume it works but if i add volume it doesn't work.
+
+```
+docker run -it -p 8000:8000 --rm -v "/mnt/c/Users/admin/Desktop/Development/MERN/Bookstore-MERN/frontend:/app" frontend
 ```

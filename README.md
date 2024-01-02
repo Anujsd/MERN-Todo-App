@@ -9,7 +9,19 @@ docker compose up
 #### Stop This App
 
 ```
+Ctrl + C
+```
+
+#### Delete Containers
+
+```
 docker compose down
+```
+
+#### Delete Containers with volumes
+
+```
+docker compose down -v
 ```
 
 # Individual Commands

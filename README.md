@@ -6,6 +6,9 @@
 docker compose up
 ```
 
+You can find app at
+http://localhost:8000/
+
 #### Stop This App
 
 ```

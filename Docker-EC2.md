@@ -11,3 +11,8 @@ sudo groupadd docker
 
 sudo usermod -aG docker <user>
 ```
+
+```
+sudo apt-get install docker-compose-plugin
+
+```

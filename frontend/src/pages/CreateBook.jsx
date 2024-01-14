@@ -20,7 +20,7 @@ const CreateBook = () => {
     };
     setLoading(true);
     axios
-      .post('http://localhost:4040/books', data)
+      .post('http://54.205.72.18:4040/books', data)
       .then(() => {
         setLoading(false);
         enqueueSnackbar('Book Created Successfully', { variant: 'success' });

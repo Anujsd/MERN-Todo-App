@@ -17,7 +17,7 @@ const EditBook = () => {
   useEffect(() => {
     setLoading(true);
     axios
-      .get(`http://localhost:4040/books/${id}`)
+      .get(`http://54.205.72.18:4040/books/${id}`)
       .then((res) => {
         setLoading(false);
         setTitle(res.data.title);
@@ -39,7 +39,7 @@ const EditBook = () => {
     };
     setLoading(true);
     axios
-      .put(`http://localhost:4040/books/${id}`, data)
+      .put(`http://54.205.72.18:4040/books/${id}`, data)
       .then(() => {
         setLoading(false);
         enqueueSnackbar('Book Updated Successfully', { variant: 'success' });

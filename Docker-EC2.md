@@ -1,15 +1,17 @@
 ## Deploying Container to EC2
 
+## Installing Docker on ubuntu
+
+https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository
+
 ```
 sudo apt update
 
 sudo apt install docker.io
 
-docker --version
-
 sudo groupadd docker
 
-sudo usermod -aG docker <user>
+sudo usermod -aG docker ubuntu
 ```
 
 ```
